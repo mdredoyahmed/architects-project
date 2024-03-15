@@ -96,3 +96,40 @@ nav li a{
         flex-direction: column;
     }
 }
+
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* teames style */
+.team-container{
+    display: flex;
+    align-items: center;
+}
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.25rem;
+}
+.teams-content{
+    padding-right:70px ;
+    padding-left: 70px;
+}
+.team-title{
+    font-size:2.8rem ;
+    
+}
+.team-title .quick-list{
+color: #727272;
+font-weight: 500;
+}
+.team-title .of-our{
+ color: #131313;
+ font-weight: 700;
+
+}
+.team-title .Features{
+color: #ff900e;
+font-weight: 700;
+}
